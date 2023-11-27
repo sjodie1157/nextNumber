@@ -1,0 +1,14 @@
+.box {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    width: fit-content;
+    padding: 2em;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -11,12 +11,14 @@ function createNextNumberFunction(array) {
     }
     return nextNumber;
 }
+
 function displayNumb(){
     let numbDis = document.querySelector('[data-next]')
     return numbDis.textContent = getNextNumber()
 }
 
 let myArray = [2, 4, 10, 30 , 10];
+
 let getNextNumber = createNextNumberFunction(myArray);
 myArray = document.querySelector('[data-arr]').textContent = myArray
 
